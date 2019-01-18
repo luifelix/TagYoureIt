@@ -1,0 +1,25 @@
+====================
+===== HELP.TXT =====
+====================
+To run the application:
+ 1 . Navigate to phase2/src
+ 2 . Run: javac Main.java
+ 3 . Run: java Main
+
+Using the application:
+Using the application should be pretty self explanatory.  Below is an outline of
+the main use cases.
+
+ - The first screen will ask you to choose a directory in which to run the application.  
+ - Next, a new window should appear, displaying all image files in or below your
+   selected directory in a grid of thumbnails.  
+ - Click on [Manage Tags] to modify the set of currently existing tags.
+ - Click on any image to 
+     - view details about the images, including file path, and current tags.
+     - [Move To...] to move the file to a new location.
+     - [View Tag History] to view a list of past names this image has had, with
+       the ability to select one to revert to.
+     - [Edit Tags] to apply or remove tags from this image.  Note that you can only
+       apply and remove tags that are in the set of currently existing tags.
+ - Click on [Search] in the [Search] tab to search for images with a particular tag.
+ - Click on [Rename Log] to view a log of all file renaming/moving ever done.
